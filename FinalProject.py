@@ -19,6 +19,8 @@ def Freeze():
 def House():
     print("As you crest the hill, a small lodge comes into your vision.")
 
+def Nightfall():
+    print("The sun slowly drops below the treeline, and the darkness comes. You cannot see very well now, and the forest sounds seem much louder and sharper than normal.")
 
     
 three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.")
