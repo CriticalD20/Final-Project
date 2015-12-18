@@ -26,3 +26,25 @@ def Nightfall():
 three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.")
 four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.")
 first_choice = input(" You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour")
+if first_choice.lower == "a":
+    Freeze += 1
+    Time += 1
+   
+elif first_choice.lower == "b":
+    Time += 1
+    Freeze += 1
+elif first_choice.lower == "c":
+    Time += 1
+    Freeze += 1
+elif first_choice.lower == "d":
+    Time += 1
+    Freeze += 1
+elif first_choice.lower == "e":
+    Time += 1
+    Freeze += 1
+elif first_choice.lower == "f":
+    Wait()
+    Time += 1
+    Freeze += 1
+else:
+    print("That is not a valid choice. Please resart the program, and make sure not to include anything other than the letter of the choice in the input box.")
