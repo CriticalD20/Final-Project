@@ -1,9 +1,8 @@
-one = input("Welcome to the Text-based The Long Night Recreation.")
-two = input("A strange electromagnetic storm has crashed your plane in Northern Canada. How long can you survive?")
+one = input("Welcome to the Text-based The Long Night Recreation.\n(Rress Enter)")
+two = input("A strange electromagnetic storm has crashed your plane in Northern Canada. How long can you survive? \n(Press Enter)")
 
 Freeze = 5
 def Freezing():
-    global Freeze
     Freeze -= 1
     if Freeze == 0:
         print("The cold overcomes you, and you fall. Your vision darkens as the snow rushes up to meet you. You have died by frostbite.")
@@ -44,10 +43,7 @@ def WolfAttack():
     print("You hear howling, as the crunches of multiple paws racing through the snow surround you completely. The eyes of the wolves all around you spell certain death.")
     
     Freezing()
-def Freeze():
-    print("As your vision dims and the cold completely fills your body, you fall, and lay in the snow. You feel tired, and your eyes slowly close. You are dead.")
     
-    Freezing()
 def House():
     print("As you crest the hill, a small lodge comes into your vision.")
     
@@ -93,8 +89,8 @@ def CardinalChoice():
     else:
         West()
         Freezing()
-three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.")
-four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.")
+three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.\n(Press Enter)")
+four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.\n(Press Enter)")
 first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
 if first_choice.lower() == "a":
     North()
