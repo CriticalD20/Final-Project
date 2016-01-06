@@ -5,7 +5,7 @@ Freeze = 5
 def Freezing():
     Freeze -= 1
     if Freeze == 0:
-        print("The cold overcomes you, and you fall. Your vision darkens as the snow rushes up to meet you. You have died by frostbite.")
+        print2 = input("The cold overcomes you, and you fall. Your vision darkens as the snow rushes up to meet you. You have died by frostbite.")
         
     else:
         print("The cold is starting to get to you. Find some shelter fast.")
@@ -43,7 +43,7 @@ def CardinalChoice2():
     if CardinalChoice2 == "a":
         Freezing()
         SeeWolf()
-    elif CardninalChoice2 == "b" or == "c" or == "c":
+    elif CardninalChoice2 == "b" or CardinalChoice2 == "c" or CardinalChoice2== "c":
         Freezing()
         CardinalChoice2()
     else:
@@ -96,7 +96,7 @@ def WolfAttack():
     
 def House():
     print("As you crest the hill, a small lodge comes into your vision. You race towards the warmth and your only way of survival.")
-    
+    WIN = input("You have completed the Text-Based The Long Night Recreation Game. Congratulations! Don't tell your friends how to win though   ;D")
 def North():
     print("You trudge through the snow past trees and small snow-mounds towards North.")
     Freezing()
@@ -134,20 +134,25 @@ three = input("You find yourself in a clearing 200 meters in diameter. It is sur
 four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.\n(Press Enter)")
 first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
 if first_choice.lower() == "a":
+    Freezing()
     North()
 elif first_choice.lower() == "b":
+    Freezing()
     East()
  
 elif first_choice.lower() == "c":
+    Freezing()
     South()
     
 elif first_choice.lower() == "d":
+    Freezing()
     West()
     
 elif first_choice.lower() == "e":
     SearchPlane()
     Wait()
 elif first_choice.lower() == "f":
+    Freezing()
     Wait()
     
 else:
