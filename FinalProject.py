@@ -1,3 +1,4 @@
+
 one = input("Welcome to the Text-based The Long Night Recreation.\n(Press Enter)")
 two = input("A strange electromagnetic storm has crashed your plane in Northern Canada. How long can you survive? \n(Press Enter)")
 
