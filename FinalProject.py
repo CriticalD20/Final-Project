@@ -68,7 +68,7 @@ def CardinalChoice2():
     if CardinalChoice2 == "a":
         Freezing()
         SeeWolf()
-    elif CardninalChoice2 == "b" or CardinalChoice2 == "c" or CardinalChoice2== "c":
+    elif CardinalChoice2 == "b" or CardinalChoice2 == "c" or CardinalChoice2== "c":
         Freezing()
         CardinalChoice2()
     else:
