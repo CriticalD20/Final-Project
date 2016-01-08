@@ -119,9 +119,9 @@ def PossibleWolf():
     else:
         print("That is not a valid choice. Please resart the program, and make sure not to include anything other than the letter of the choice in the input box.")
 def SeeWolf():
+    Freezing
     print("You notice a lupine shape run past a few meters from you. It does not give you a second thought, and quickly leaves your sight.")
-    Freezing()
-    PossibleWolf()
+    CardinalChoice2()
 def WolfAttack():
     print("You trudge through the snow, and all of a sudden a noise break the silence. You hear howling, as the crunches of multiple paws racing through the snow surround you completely. The eyes of the wolves all around you spell certain death.")
     
