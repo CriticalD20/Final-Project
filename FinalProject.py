@@ -131,7 +131,7 @@ def House():
 def North():
     print("You trudge through the snow past trees and small snow-mounds towards North.")
     Freezing()
-    CardnialCHoice2
+    CardnialChoice2
 def South():
     print("You trudge through the snow past trees and small snow-mounds towards South.")
     Freezing()
