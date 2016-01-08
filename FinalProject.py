@@ -3,6 +3,30 @@ one = input("Welcome to the Text-based The Long Night Recreation.\n(Press Enter)
 two = input("A strange electromagnetic storm has crashed your plane in Northern Canada. How long can you survive? \n(Press Enter)")
 
 Freeze = 8
+def FirstChoice
+    first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
+    if first_choice.lower() == "a":
+        Freezing()
+        North()
+    elif first_choice.lower() == "b":
+        Freezing()
+        East()
+ 
+    elif first_choice.lower() == "c":
+        Freezing()
+        South()
+    
+    elif first_choice.lower() == "d":
+        Freezing()
+        West()
+    
+    elif first_choice.lower() == "e":
+        SearchPlane()
+        
+    elif first_choice.lower() == "f":
+        Freezing()
+        Wait()
+    
 def Freezing():
     Freeze -= 1
     if Freeze == 0:
@@ -116,7 +140,7 @@ def West():
     SeeWolf()
 def SearchPlane():
     print("You trudge through the snow to the plane, only to find that the fire does not allow you to access the plane. However, it does seem warmer here.")
-    
+    FirstChoice()
 def CardinalChoice():
     Cardinal_Direction = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West")
     if Cardinal_Direction.lower() == "a":
@@ -155,7 +179,7 @@ elif first_choice.lower() == "d":
     
 elif first_choice.lower() == "e":
     SearchPlane()
-    Wait()
+    
 elif first_choice.lower() == "f":
     Freezing()
     Wait()
