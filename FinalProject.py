@@ -64,7 +64,7 @@ def Nothing():
     Freezing()
     CardinalChoice2()
 def CardinalChoice2():
-    printt = input("You sense of direction has been lost form walking through the woods. Which direction would you like to try to go?\n(a) North\n(b) East\n(c) South\n(d) West")
+    printt = input("You sense of direction has been lost from walking through the woods. Which direction would you like to try to go?\n(a) North\n(b) East\n(c) South\n(d) West \nChoice:")
     if CardinalChoice2 == "a":
         Freezing()
         SeeWolf()
