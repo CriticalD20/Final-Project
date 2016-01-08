@@ -143,7 +143,7 @@ def East():
 def West():
     print("You trudge through the snow past trees and small snow-mounds towards West.")
     Freezing()
-   CardinalChoice2()
+    CardinalChoice2()
 def SearchPlane():
     print("You trudge through the snow to the plane, only to find that the fire does not allow you to access the plane. However, it does seem warmer here.")
     FirstChoice()
