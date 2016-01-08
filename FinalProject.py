@@ -131,7 +131,7 @@ def House():
 def North():
     print("You trudge through the snow past trees and small snow-mounds towards North.")
     Freezing()
-    Nothing()
+    CardnialCHoice2
 def South():
     print("You trudge through the snow past trees and small snow-mounds towards South.")
     Freezing()
@@ -139,11 +139,11 @@ def South():
 def East():
     print("You trudge through the snow past trees and small snow-mounds towards East.")
     Freezing()
-    Nothing()
+    CardinalChoice2()
 def West():
     print("You trudge through the snow past trees and small snow-mounds towards West.")
     Freezing()
-    SeeWolf()
+   CardinalChoice2()
 def SearchPlane():
     print("You trudge through the snow to the plane, only to find that the fire does not allow you to access the plane. However, it does seem warmer here.")
     FirstChoice()
