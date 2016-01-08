@@ -68,13 +68,13 @@ def CardinalChoice2():
     if printt == "a":
         Freezing()
         SeeWolf()
-    elif printt == "b" :
+    elif printt.lower() == "b" :
         Freezing()
         CardinalChoice2()
-    elif printt == "c":
+    elif printt.lower() == "c":
         Freezing()
         CardinalChoice2()
-    elif printt == "d":
+    elif printt.lower() == "d":
         Freezing()
         CardnialChoice2()
     else:
@@ -99,20 +99,20 @@ def PossibleWolf2():
     else:
         print("That is not a valid choice. Please resart the program, and make sure not to include anything other than the letter of the choice in the input box.")
 def PossibleWolf():
-    choiceW = input("After seeing the wolf you come to a clearing. Which direction would you like to go?\n(a) North\n(b) East\n(c) South\n(d) West")
-    if choiceW.lower == "a":
+    choiceZ = input("After seeing the wolf you come to a clearing. Which direction would you like to go?\n(a) North\n(b) East\n(c) South\n(d) West")
+    if choicez.lower == "a":
         print("You trudge through the snow past trees and small snow-mounds towards North.")
         Freezing()
         WolfAttack()
-    elif choiceW == "b":
+    elif choicez == "b":
         print("You trudge through the snow past trees and small snow-mounds towards East.")
         Freezing()
         WolfAttack()
-    elif choiceW == "c":
+    elif choicez == "c":
         print("You trudge through the snow past trees and small snow-mounds towards South.")
         Freezing()
         WolfAttack()
-    elif choiceW == "d":
+    elif choicez == "d":
         print("You trudge through the snow past trees and small snow-mounds towards West.")
         Freezing()
         PossibleWolf2()
