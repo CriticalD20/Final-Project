@@ -6,7 +6,7 @@ Freeze = 8
 def Freezing():
     Freeze -= 1
     if Freeze == 0:
-        print2 = input("The cold overcomes you, and you fall. Your vision darkens as the snow rushes up to meet you. You have died by frostbite.")
+        printz = input("The cold overcomes you, and you fall. Your vision darkens as the snow rushes up to meet you. You have died by frostbite.")
         
     else:
         print("The cold is starting to get to you. Find some shelter fast.")
@@ -120,17 +120,21 @@ def SearchPlane():
 def CardinalChoice():
     Cardinal_Direction = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West")
     if Cardinal_Direction.lower() == "a":
+        Freezing()
         North()
-        Freezing()
+        
     if Cardinal_Direction.lower() == "b":
+        Freezing()
         East()
-        Freezing()
+        
     if Cardinal_Direction.lower() == "c":
+        Freezing()
         South()
+        
+    elif Cardnial_Direction.lower() == "d":
         Freezing()
-    else:
         West()
-        Freezing()
+
 three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.\n(Press Enter)")
 four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.\n(Press Enter)")
 first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
