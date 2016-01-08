@@ -3,7 +3,7 @@ one = input("Welcome to the Text-based The Long Night Recreation.\n(Press Enter)
 two = input("A strange electromagnetic storm has crashed your plane in Northern Canada. How long can you survive? \n(Press Enter)")
 
 Freeze = 8
-def FirstChoice
+def FirstChoice():
     first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
     if first_choice.lower() == "a":
         Freezing()
