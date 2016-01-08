@@ -76,7 +76,7 @@ def CardinalChoice2():
         CardinalChoice2()
     elif printt.lower() == "d":
         Freezing()
-        CardnialChoice2()
+        CardinalChoice2()
     else:
         print("That is not a valid choice. Please resart the program, and make sure not to include anything other than the letter of the choice in the input box.")
 def PossibleWolf2():
@@ -131,7 +131,7 @@ def House():
 def North():
     print("You trudge through the snow past trees and small snow-mounds towards North.")
     Freezing()
-    CardnialChoice2
+    CardinalChoice2
 def South():
     print("You trudge through the snow past trees and small snow-mounds towards South.")
     Freezing()
