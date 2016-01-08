@@ -147,18 +147,19 @@ def CardinalChoice():
         Freezing()
         North()
         
-    if Cardinal_Direction.lower() == "b":
+    elif Cardinal_Direction.lower() == "b":
         Freezing()
         East()
         
-    if Cardinal_Direction.lower() == "c":
+    elif Cardinal_Direction.lower() == "c":
         Freezing()
         South()
         
-    elif Cardnial_Direction.lower() == "d":
+    elif Cardinal_Direction.lower() == "d":
         Freezing()
         West()
-
+    else:
+        print("That is not a valid choice. Please resart the program, and make sure not to include anything other than the letter of the choice in the input box.")
 three = input("You find yourself in a clearing 200 meters in diameter. It is surrounded by snow-laden conifers, with no buildings in sight.\n(Press Enter)")
 four = input("You are standing in the middle next to your downed plane, flames still licking across the chasis, and a rut in the snow leads from the plane to about 40 meters to the right.\n(Press Enter)")
 first_choice = input("You check your compass, and you are facing North. What will you do? \n(a) Go North \n(b) Go East \n(c) Go South \n(d) Go West \n(e) Search the Plane \n(f) Wait an hour \nChoice: ")
