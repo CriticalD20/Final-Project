@@ -1,17 +1,9 @@
 # The Long Dark Recreation
 
 ## Design Specification
-My code is built with the tools provided by http://runpython.com, and is using the most current iteration of Python 3. (Insert Functional Specification code stuff)
+My code is built with the tools provided by http://runpython.com, and is using the most current iteration of Python 3. There are three main elements that are used in this program. For the interactions with the player, functions need to written for different events, and if then statements need to accompany each input the player has to make. 
+My code is organized by functions, then the body of the code. 
+For interactions withe the player, and if then statement will call a function based on which choice the player makes by typing a letter of their choice into the input. Inside each function is a modifier for a variable called Freezing, and then a print to describe the situation around the player. Then another function is called for a multiple choice which is then followed by an if then statement to call a different function based on the player's choice, and this repeats until the player find the win condition which ends the loop, or once the Freezing value reaches zero.
+The only issue at the moment is that the Freezing variable does not end the code, and it will continue after the player had "officially" died.
 
-The design specificaiton is a counterpart to the Functional Speciffication. Where a functional specification concerns itself
-with inputs and outputs from the program, or the *experience* of a user running the program, the design specification is concerned with decisions that the engineer and programmer must make during its creation.
-
-The design specification should include information like:
-
-* What tools or frameworks will you use to build the project (e.g. http://runpython.com or ggame)?
-* What language will you use for coding (usually Python 3)?
-* For every element of the Functional Specification, what code will need to be written to support it?
-* What data will be stored or manipulated by the program? How will it be encoded and organized?
-* Describe the logic and/or code behind every interaction with the user, and behind everything displayed.
-* If your program uses an unusual or notable *algorithm*, what is the algorithm and how does it work?
 
