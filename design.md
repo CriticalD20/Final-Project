@@ -1,4 +1,4 @@
-# Name of Your Project Here
+# The Long Dark Recreation
 
 ## Design Specification
 http://runpython.com
@@ -15,3 +15,4 @@ The design specification should include information like:
 * What data will be stored or manipulated by the program? How will it be encoded and organized?
 * Describe the logic and/or code behind every interaction with the user, and behind everything displayed.
 * If your program uses an unusual or notable *algorithm*, what is the algorithm and how does it work?
+
